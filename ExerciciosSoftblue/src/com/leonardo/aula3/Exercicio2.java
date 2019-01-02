@@ -1,5 +1,7 @@
 package com.leonardo.aula3;
 
+import java.util.Scanner;
+
 /*
  * @author Leonardo Melo
  * Objetivo: Gerar diferentes saídas usando loops.
@@ -8,11 +10,14 @@ package com.leonardo.aula3;
 public class Exercicio2 {
 
 	public static void main(String[] args) {
-
+		Scanner scan = new Scanner(System.in);
 		Exercicio2.imprimirNumDe10Ate25();
 		Exercicio2.imprimirSomaAte100();
 		Exercicio2.imprimirSomandoOSeguinte();
-		Exercicio2.imprimirTabuada(9);	
+		System.out.print("Informe o valor que deseja ser multiplicado: ");
+		int valor = scan.nextInt();
+		scan.close();
+		Exercicio2.imprimirTabuada(valor);	
 	}
 
 	public static void imprimirNumDe10Ate25() {
