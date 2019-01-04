@@ -2,6 +2,11 @@ package com.leonardo.aula5.exercicio1;
 
 import java.util.Scanner;
 
+/*
+ * @author Leonardo Melo
+ * Objetivo: Interagir com uma classe Lâmpada.
+ * 
+ */
 public class Apresentacao {
 
 	public static void main(String[] args) {
