@@ -24,10 +24,10 @@ public class Apresentacao {
 			int hora = scan.nextInt();
 			System.out.print("Minutos: ");
 			int minutos = scan.nextInt();
+			scan.close();
 			Data d = new Data(evento,dia,mes,ano,hora,minutos);
 			d.imprimir(1);
 		}catch(Exception e) {
-			scan.close();
 			System.out.println(e.getMessage());
 		}
 	}
