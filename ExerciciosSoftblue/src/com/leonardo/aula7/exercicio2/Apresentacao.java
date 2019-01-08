@@ -1,7 +1,11 @@
 package com.leonardo.aula7.exercicio2;
 
+/*
+ * @author Leonardo Melo
+ * Objetivo: Clonar um objeto 
+ *
+ */
 public class Apresentacao {
-
 	public static void main(String[] args) {
 		Porta porta = new Porta();
 		porta.setAltura(1.80);
