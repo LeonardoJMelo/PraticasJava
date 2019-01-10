@@ -7,6 +7,13 @@ public class Produto {
 	private int mes;
 	private int ano;
 	
+	public Produto(String nome, double peso, int dia, int mes, int ano) {
+		this.nome = nome;
+		this.peso = peso;
+		this.dia = dia;
+		this.mes = mes;
+		this.ano = ano;
+	}
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
@@ -39,9 +46,5 @@ public class Produto {
 	}
 	public String consultarDataValidade() {
 		return this.getDia()+"/"+this.getMes()+"/"+this.getAno();
-	}
-	public String getDataValidade() {
-	String s ="l" ;
-	return s;
 	}
 }
